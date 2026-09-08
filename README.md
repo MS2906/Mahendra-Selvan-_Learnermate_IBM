@@ -183,19 +183,6 @@ learnmate/
 
 ---
 
-## Troubleshooting
-
-| Problem | Solution |
-|---------|----------|
-| `WATSONX_API_KEY is not set` on startup | Check `.env` file in `backend/` |
-| `IBM Cloud API key is invalid or expired` | Create a new API key at cloud.ibm.com → Manage → IAM → API keys |
-| `HTTP 404` on model | Ensure `granite-4-h-small` is available in your region (us-south or eu-de) |
-| `HTTP 403` | Project ID is wrong, or WML service not associated with project |
-| `No JSON found in AI response` | Granite returned unexpected output — retry; may be a transient issue |
-| CORS error in browser | Ensure backend is running on port 3001 |
-
----
-
 ## License
 
 MIT — free for personal and commercial use.
